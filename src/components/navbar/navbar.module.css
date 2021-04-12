@@ -1,0 +1,78 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 3.5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.home {
+  margin-right: 2rem;
+  transition: all 0.6 ease-in;
+}
+.home:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.location {
+  margin-right: 2rem;
+  transition: all 0.6 ease-in;
+}
+.location:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.input {
+  width: 40%;
+  height: 3.5em;
+  outline: 0;
+  /* margin-left: 5rem; */
+}
+.fa-search {
+  font-size: 10rem;
+}
+.searchBtn {
+  background-color: #ffffff;
+  margin-right: 35rem;
+  border: none;
+  color: black;
+}
+.searchImg {
+  height: 1.7rem;
+  width: 8em;
+  font-size: 0.2em;
+  outline: 0;
+  background-color: none;
+}
+
+.login {
+  margin-right: 2rem;
+  transition: all 0.6 ease-in;
+}
+.login:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.logout {
+  margin-right: 2rem;
+  transition: all 0.6 ease-in;
+  display: none;
+}
+.logout:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.signup {
+}
+.signup:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+hr {
+  width: 100%;
+}
