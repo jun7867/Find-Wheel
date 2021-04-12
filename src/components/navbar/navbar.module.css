@@ -1,3 +1,5 @@
+@value makerBlack from '../../common/colors.css';
+
 .nav {
   display: flex;
   align-items: center;
@@ -40,7 +42,7 @@
   background-color: #ffffff;
   margin-right: 35rem;
   border: none;
-  color: black;
+  color: makerBlack;
 }
 .searchImg {
   height: 1.7rem;
